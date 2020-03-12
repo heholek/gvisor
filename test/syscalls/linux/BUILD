@@ -2641,6 +2641,7 @@ cc_binary(
         ":socket_test_util",
         "//test/util:capability_util",
         gtest,
+        "//test/util:file_descriptor",
         "//test/util:test_main",
         "//test/util:test_util",
         "//test/util:thread_util",
